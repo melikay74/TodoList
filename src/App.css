@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+    padding: 0 5px;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.about p {
+    background-color: unset;
+}
+
+p {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
+
+button {
+    background: maroon;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+form {
+    display: flex;
+}
+
+.textField {
+    flex: 10;
+    padding: 5px;
+}
+
+.btn {
+    flex: 1;
+    border: none;
+    display: inline-block;
+    background-color: #555;
+    color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+.todo-item p {
+    padding: 10px;
+}
